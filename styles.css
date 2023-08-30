@@ -4,12 +4,16 @@
 body {
     background-color: hsl(212, 45%, 89%)
 }
+wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .block {
     display: grid;
     background-color: white;
     place-items: center;
-    align-items: center;
-    min-height: 100vh;
     margin: auto;
     width: 23.5rem;
     border-radius: 1.2rem;
@@ -41,10 +45,4 @@ p {
     text-align: center;
     place-items: center;
     padding-bottom: 2.5rem;
-}
-.attribution {
-    padding: 0.625rem;
-    text-align: center;
-    font-size: 0.75rem;
-    place-items: center;
 }
